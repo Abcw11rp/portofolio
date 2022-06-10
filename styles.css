@@ -1,0 +1,129 @@
+body{
+    background-color: #06283D;
+    color:white;
+    font-family: "Montserrat";
+}
+nav{
+    background-color: white;
+    color:black;
+}
+.brand{
+    font-weight:800;
+    padding-left: 2rem;
+    font-size: 2rem;
+}
+.menu-item{
+    float: right;
+    margin-right: 5%;
+    padding-top: 10px;
+}
+ul li {
+    list-style: none;
+    display:block;
+}
+.dropdown li{
+    display: none;
+}
+.dropdown li:hover{
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    position:static;
+}
+
+ul{
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.menu-item:hover {
+    background-color: red;
+}
+.menu-item:hover .dropdown li{
+    display:block;
+    background-color: white;
+    padding: 2% 1rem 10% 1rem;
+}
+
+.title{
+    margin-top: 5%;
+}
+h1{
+    font-size:3rem;
+    font-weight: 800;
+}
+p{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.say{
+    font-size: 12px;
+}
+.interact{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.say p{
+    font-size: 20px;
+}
+.image{
+    text-align:right;
+}
+.image img{
+    width: 30%;
+    height: auto;
+    border-radius: 100%;
+}
+/* About Me */
+.title-about{
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+}
+.title-about img{
+    border-radius: 100%;
+}
+.carimage{
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+}
+.carousel{
+    margin: 0 auto;
+    width:50%;
+}
+.services{
+    text-align: center;
+    padding: 5% 0 15%;
+}
+.carousel-item img{
+    margin:8% auto;
+}
+/* contact */
+textarea{
+    margin-top: 5px;
+}
+.send{
+    background-color: white;
+    width: 10rem;
+    font-weight: 900;
+    margin-top: 1rem;
+}
+.container p{
+    font-size: 1.5rem;
+}
+.send:hover{
+    border-style: solid;
+    border-color: red;
+}
+.fa-whatsapp{
+    margin-left:1rem;
+}
+.wa-contact{
+    color: inherit;
+    text-decoration: none;
+}
